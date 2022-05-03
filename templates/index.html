@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>InfyU Labs</title>
+    <link rel="stylesheet" href="../static/css/index.css" class="css" />
+  </head>
+
+  <body>
+    <center>
+      <div class="title">
+        <h1>GUI for InfyU Labs</h1>
+      </div>
+      <form action = "{{url_for('result')}}" method = "POST" class="form">
+              <input type="text" name="vid_path" placeholder="Video Path" class="form-control"><br>
+              <input type="text" name="output_path" placeholder="Output Path" class="form-control">
+        <center>
+           <button type = "submit" class="submit-bt">Submit</button>
+        </center>
+     </form>
+
+    </center>
+  </body>
+</html>
